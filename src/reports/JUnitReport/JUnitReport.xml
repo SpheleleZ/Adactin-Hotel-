@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.893" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Adactin Hotel Searching Hotels" name="Testing if user can search for Hotels - Example #1.1" time="11.623">
+<system-out><![CDATA[
+Given browser is launched...................................................passed
+And Adactin Hotel build two "https://adactinhotelapp.com/HotelAppBuild2/index.php" is open.passed
+Then verify login page is open and it is build two..........................passed
+When user enters SpheleleZ and Nok2lasphe...................................passed
+And chick on login button...................................................passed
+Then verify user logged in successfully.....................................passed
+And select the Melbourne and Hotel Sunshine.................................passed
+And select room Double and number of 2......................................passed
+When enters check in 14/02/2024 and check out 24/02/2024....................passed
+And select how many Adults per room 3 and Children per room 2...............passed
+And click on search button..................................................passed
+Then verify if list of Hotels or Hotel is displayed.........................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
